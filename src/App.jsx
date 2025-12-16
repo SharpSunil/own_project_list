@@ -1,12 +1,18 @@
 import React from 'react'
 import './App.scss'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home/Home'
 
 function App() {
 
 
   return (
     <>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod quas dolorum excepturi vel unde! Veniam impedit perspiciatis repellendus nobis nulla, non optio, explicabo illo commodi illum reiciendis! Hic quidem, ipsum modi ullam eveniet quod vel minima cupiditate doloremque rem illo nesciunt cumque nihil ab! Voluptas repudiandae ducimus reiciendis recusandae.</p>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home /> } />
+    </Routes> 
+    </BrowserRouter>
     </>
   )
 }

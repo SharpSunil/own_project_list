@@ -1,0 +1,116 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --accent: #e53935;
+    --accent2:rgb(240, 239, 239);
+    --gap: 20px;
+    --unit: 20px;
+    --max-width: 1160px;
+    --trans: all 0.4s ease-in-out;
+    --shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    --bg-gray:#F8F8F8;
+  }
+  
+  *::before,
+  *::after,
+  * {
+    box-sizing: border-box;
+    // border: 1px solid red;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+  
+  .heading,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .heading,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-align: center !important;
+    }
+  }
+  
+  /* For Firefox */
+  
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  html {
+    
+    scroll-behavior: smooth;
+  }
+  
+  p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-weight: 400;
+    color: var(--text);
+  }
+  
+  .bg-img-cover {
+    background-position: left center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  .bg-img-contain {
+    background-position: center center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  .parent {
+    width: 100%;
+  
+    .cont {
+      max-width: var(--max-width);
+      margin: auto;
+      height: 100%;
+      padding:0px 10px;
+      // background: rgba(102, 51, 153, 0.073);
+    }
+  }
+  
+  .btn {
+    cursor: pointer;
+    border: none;
+    background: var(--accent);
+    color: var(--white) !important;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: var(--trans);
+    width: fit-content;
+    border-radius: calc(var(--unit) / 4);
+  
+    &:hover {
+      background: var(--black);
+    }
+  }
+
+  
+ 
+ 

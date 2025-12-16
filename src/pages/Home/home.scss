@@ -1,0 +1,20 @@
+.home-parent {
+  height: 400px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(250, 248, 248, 0.116)
+    ),
+    url("../../assets/hero-back.jpg");
+  .home-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    .heading {
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+}
