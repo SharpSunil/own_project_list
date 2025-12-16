@@ -1,11 +1,6 @@
 .home-parent {
-  height: 400px;
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(250, 248, 248, 0.116)
-    ),
-    url("../../assets/hero-back.jpg");
   .home-cont {
+    padding: 200px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +10,47 @@
       font-size: 48px;
       font-weight: 700;
       text-align: center;
+    }
+    .main-card {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      .card {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        width: 280px;
+        transition: var(--trans);
+
+       
+
+        .icon {
+          img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+          }
+        }
+        .card-heading {
+          font-size: 24px;
+          font-weight: 600;
+          margin-bottom: 10px;
+          
+        }
+        .card-desc {
+          font-size: 16px;
+          color: #666;
+        }
+         &:hover {
+          box-shadow: var(--shadow);
+          .icon{
+            img {
+              transform: scale(1.1);  
+            }
+          }
+        }
+      }
     }
   }
 }
