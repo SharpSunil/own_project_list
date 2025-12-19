@@ -9,8 +9,8 @@ const Home = () => {
     const cardData = [
         {
             icon: img1,
-            heading: "Feature One",
-            desc: "Description of feature one.",
+            heading: "Merge PDF",
+            desc: "If you want to merge multiple PDF files into a single document, use this feature.",
             link: "/merge-pdf"
         },
         {
