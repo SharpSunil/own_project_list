@@ -1,0 +1,37 @@
+.header-parent {
+  padding: 20px 0px;
+  .header-cont {
+   background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px 20px;
+    
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    
+    box-shadow: var(--shadow);
+    .logo {
+      font-size: 24px;
+      font-weight: 600;
+
+    }
+    .menu {
+      display: flex;
+      gap: 20px;
+      p {
+     
+        cursor: pointer;
+        font-size: 18px;
+        &:hover {
+          color: #ff6600;
+        }
+      }
+    }
+  }
+}
