@@ -15,15 +15,17 @@ const Home = () => {
         },
         {
             icon: img2,
-            heading: "Feature Two",
-            desc: "Description of feature two.",
+             heading: "Feature two",
+              desc: "Description of feature two.",
             link: "/feature-two"
         },
         {
             icon: img3,
-            heading: "Feature Three",
-            desc: "Description of feature three.",
-            link: "/feature-three"
+            heading: "Pdf to PowerPoint",
+           
+             desc: "Convert your PDF files into editable PowerPoint presentations with ease.",
+            link: "/pdf-to-powerpoint"
+         
         },
 
         {
