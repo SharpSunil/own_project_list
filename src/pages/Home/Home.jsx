@@ -14,13 +14,13 @@ const Home = () => {
             link: "/merge-pdf"
         },
         {
-            icon: img2,
-             heading: "Feature two",
-              desc: "Description of feature two.",
-            link: "/feature-two"
+            icon: img3,
+             heading: "Word to PDF",
+              desc: "Convert your Word documents into PDF format.",
+            link: "/word-to-pdf"
         },
         {
-            icon: img3,
+            icon: img2,
             heading: "Pdf to PowerPoint",
            
              desc: "Convert your PDF files into editable PowerPoint presentations with ease.",
